@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scorecard</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="flex-parent">
+                <div id="home">
+                    <p>HOME</p>
+                    <div class="scorecard">
+                        <span id="home-score">0</span>
+                    </div>
+                    <div class="update">
+                        <button class="btn" id="plus1home" onclick="plus1home()">+1</button>
+                        <button class="btn" id="plus2home" onclick="plus2home()">+2</button>
+                        <button class="btn" id="plus3home" onclick="plus3home()">+3</button>
+                    </div>
+                </div>
+                <div id="guest">
+                    <p>GUEST</p>
+                    <div class="scorecard">
+                        <span id="guest-score">0</span>
+                    </div>
+                    <div class="update">
+                        <button class="btn" id="plus1guest" onclick="plus1guest()">+1</button>
+                        <button class="btn" id="plus2guest" onclick="plus2guest()">+2</button>
+                        <button class="btn" id="plus3guest" onclick="plus3guest()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div class="reset">
+                <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

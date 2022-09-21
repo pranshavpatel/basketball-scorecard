@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #E0F2FE;
+}
+.container{
+    width: 50vw;
+    height: 60vh;
+    background: #1B244A;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.flex-parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+#home{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    color: #EEEEEE;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#guest{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    color: #EEEEEE;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scorecard{
+    background: #080001;
+    width: 15vw;
+    /* height: 18vh; */
+    height: auto;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+.btn{
+    box-sizing: border-box;
+    width: 3vw;
+    height: 3vw;
+    margin-top: 25px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: inherit;
+    color: #9AABD8;
+}
+.reset{
+    text-align: center;
+    margin-top: 30px;;
+}
+#reset-btn{
+    box-sizing: border-box;
+    width: 6vw;
+    height: 3vw;
+    margin-top: 15px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: inherit;
+    color: #9AABD8;
+}
+button:hover{
+    background: #9AABD8;
+    color: #080001;
+}
+#reset-btn:hover{
+    background: #9AABD8;
+    color: #080001;
+}
